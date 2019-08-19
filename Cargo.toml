@@ -1,0 +1,13 @@
+[package]
+name = "now-rust-test"
+version = "0.1.0"
+authors = [ "Christian Brevik <christian.brevik@gmail.com>" ]
+edition = "2018"
+
+[dependencies]
+http = "0.1"
+now_lambda = "*"
+
+[[bin]]
+name = "index"
+path = "/Users/christianbrevik/Dev/test/now-rust-test/src/index.rs"

@@ -1,0 +1,6 @@
+{
+	"version": 2,
+	"builds": [{ "src": "src/index.rs", "use": "now-rust" }],
+	"routes": [{ "src": "/", "dest": "src/" }]
+}
+
